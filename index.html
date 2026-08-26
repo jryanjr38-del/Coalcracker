@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Coalcracker — Fantasy Football Since 1999</title>
+<meta name="description" content="Twenty-seven seasons of the Coalcracker fantasy football league: champions, toilet bowls, all-time records and weekly write-ups.">
+<meta property="og:title" content="Coalcracker Fantasy Football">
+<meta property="og:description" content="Twenty-seven seasons. Champions, toilet bowls, and the all-time record book.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="https://sleepercdn.com/avatars/thumbs/5ea635930941d839ee24a953891cac8d">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-in">
+    <a class="brand" href="#top">
+      <img src="https://sleepercdn.com/avatars/thumbs/5ea635930941d839ee24a953891cac8d" alt="">
+      Coalcracker
+    </a>
+    <div class="nav-links">
+      <a href="#season">This Season</a>
+      <a href="#dynasties">Dynasties</a>
+      <a href="#champions">Champions</a>
+      <a href="#franchises">Franchises</a>
+      <a href="#records">Record Book</a>
+      <a href="#modern">2023–25</a>
+      <a href="#writeups">Write-ups</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="hero-in">
+    <div class="eyebrow">Founded 1999 &middot; 27 Seasons &middot; 10 Teams</div>
+    <h1>Coalcracker</h1>
+    <p class="sub">Twenty-seven seasons of fantasy football, seventeen franchises, nine different
+      champions and one very well-documented toilet bowl. All of it, in one place.</p>
+    <div class="champ-banner" id="champBanner"></div>
+    <div class="tiles" id="heroTiles"></div>
+  </div>
+</header>
+
+<main>
+
+<section id="season">
+  <div class="wrap">
+    <div class="sec-head"><h2>This Season</h2><span class="count" id="seasonCount"></span></div>
+    <div class="livebar"><span class="dot" id="liveDot"></span><span id="liveLabel">Connecting to Sleeper…</span></div>
+    <div id="liveBody"><div class="skel">Loading live league data…</div></div>
+  </div>
+</section>
+
+<section id="dynasties">
+  <div class="wrap">
+    <div class="sec-head"><h2>Dynasties</h2></div>
+    <p class="sec-sub">Twenty-seven titles across nine franchises &mdash; and twenty-three toilet bowls
+      across ten. Two managers own nearly half the trophies.</p>
+    <div class="cards" id="dynastyCharts"></div>
+  </div>
+</section>
+
+<section id="champions">
+  <div class="wrap">
+    <div class="sec-head"><h2>Champions</h2><span class="count">1999 &ndash; 2025</span></div>
+    <p class="sec-sub">Every title and every toilet bowl, by year. Team names are as they were at the time.</p>
+    <div class="tablewrap"><table id="champTable">
+      <thead><tr><th>Year</th><th>Champion</th><th>Manager</th><th>Toilet Bowl</th><th>Manager</th></tr></thead>
+      <tbody></tbody>
+    </table></div>
+    <p class="sec-sub" style="margin-top:10px;font-size:13px;color:var(--muted)">
+      The toilet bowl was first recorded in 2003.</p>
+  </div>
+</section>
+
+<section id="franchises">
+  <div class="wrap">
+    <div class="sec-head"><h2>Franchises</h2><span class="count" id="frCount"></span></div>
+    <p class="sec-sub">Career records across the life of the league. Retired franchises are kept on the books.</p>
+    <div class="tablewrap"><table id="franchiseTable">
+      <thead><tr>
+        <th>Franchise</th><th>Manager</th><th>Years</th>
+        <th class="num">W</th><th class="num">L</th><th class="num">T</th><th class="num">Win %</th>
+        <th class="num">🏆</th><th class="num">🚽</th>
+      </tr></thead>
+      <tbody></tbody>
+    </table></div>
+  </div>
+</section>
+
+<section id="records">
+  <div class="wrap">
+    <div class="sec-head"><h2>The Record Book</h2><span class="count">All-time</span></div>
+    <p class="sec-sub">The league's own record book, with the 2023&ndash;25 Sleeper seasons folded in.
+      Pre-2023 entries carry the team name as it was written at the time.</p>
+    <div class="cards" id="recordBook"></div>
+  </div>
+</section>
+
+<section id="modern">
+  <div class="wrap">
+    <div class="sec-head"><h2>The Sleeper Era</h2><span class="count">2023 &ndash; 2025</span></div>
+    <p class="sec-sub">Three seasons of complete week-by-week data, every game and every score.</p>
+
+    <h3 style="font-size:24px;text-transform:uppercase;margin:26px 0 10px">Head to Head</h3>
+    <p class="sec-sub">Every meeting since 2023, playoff and consolation games included.
+      Read across: the row team's record against the column team.</p>
+    <div class="h2h" id="h2hGrid"></div>
+    <div class="legend">
+      <span>Row team's win rate</span>
+      <span class="sw" style="background:var(--s1)"></span><span>0%</span>
+      <span class="sw" style="background:var(--s2)"></span>
+      <span class="sw" style="background:var(--s3)"></span>
+      <span class="sw" style="background:var(--s4)"></span>
+      <span class="sw" style="background:var(--s5)"></span><span>100%</span>
+    </div>
+
+    <h3 style="font-size:24px;text-transform:uppercase;margin:40px 0 12px">Final Standings</h3>
+    <div class="tabs" id="seasonTabs" role="tablist"></div>
+    <div id="seasonPanel"></div>
+  </div>
+</section>
+
+<section id="writeups">
+  <div class="wrap">
+    <div class="sec-head"><h2>Write-ups</h2><span class="count" id="postCount"></span></div>
+    <p class="sec-sub">Recaps, arguments and receipts.</p>
+    <div class="posts" id="posts"></div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Coalcracker Fantasy Football &middot; est. 1999</span>
+    <span>&middot;</span>
+    <span>1999&ndash;2022 from the league history sheet; 2023&ndash;25 verified from Sleeper; live data on every load.</span>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+# Static site — no build step. Netlify serves this directory as-is.
+[build]
+  publish = "."
+  command = ""
+
+[[headers]]
+  for = "/data/*.json"
+  [headers.values]
+    Cache-Control = "public, max-age=60"

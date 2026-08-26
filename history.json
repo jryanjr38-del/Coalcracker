@@ -1,0 +1,2755 @@
+{
+ "league": {
+  "name": "Coalcracker",
+  "founded": 1999,
+  "latest_season": 2025,
+  "seasons": 27,
+  "teams": 10,
+  "divisions": {
+   "1": "Pick",
+   "2": "Shovel"
+  },
+  "sleeper_era": [
+   2023,
+   2024,
+   2025
+  ],
+  "current_league_id": "1376601105869332480"
+ },
+ "franchises": [
+  {
+   "key": "dirty_south",
+   "name": "Dirty South",
+   "aliases": [
+    "Miano's Men"
+   ],
+   "manager": "Erik Marnell",
+   "tenure": "2001\u2013",
+   "roster_id": 5,
+   "titles": [
+    2010,
+    2011,
+    2012,
+    2017,
+    2020,
+    2022,
+    2024
+   ],
+   "toilets": [
+    2003,
+    2018,
+    2021
+   ],
+   "alltime": {
+    "w": 195,
+    "l": 167,
+    "t": 5,
+    "games": 367,
+    "pct": 0.5381
+   },
+   "sleeper": [
+    {
+     "season": 2023,
+     "name": "Dirty South",
+     "w": 5,
+     "l": 9,
+     "t": 0,
+     "pf": 1331.2,
+     "pa": 1382.46,
+     "maxpf": 1599.2,
+     "division": "Shovel"
+    },
+    {
+     "season": 2024,
+     "name": "Dirty South",
+     "w": 12,
+     "l": 2,
+     "t": 0,
+     "pf": 1568.34,
+     "pa": 1333.8,
+     "maxpf": 1903.56,
+     "division": "Shovel"
+    },
+    {
+     "season": 2025,
+     "name": "Dirty South",
+     "w": 8,
+     "l": 6,
+     "t": 0,
+     "pf": 1452.78,
+     "pa": 1441.46,
+     "maxpf": 1652.86,
+     "division": "Shovel"
+    }
+   ],
+   "active": true
+  },
+  {
+   "key": "devil_dogz",
+   "name": "Jersey Devil Dogz",
+   "aliases": [],
+   "manager": "Chubby Ryan",
+   "tenure": "2001\u2013",
+   "roster_id": 6,
+   "titles": [
+    2003,
+    2004,
+    2005,
+    2013,
+    2014,
+    2016
+   ],
+   "toilets": [
+    2009,
+    2017
+   ],
+   "alltime": {
+    "w": 190,
+    "l": 173,
+    "t": 5,
+    "games": 368,
+    "pct": 0.5231
+   },
+   "sleeper": [
+    {
+     "season": 2023,
+     "name": "Jersey Devil Dogz",
+     "w": 11,
+     "l": 3,
+     "t": 0,
+     "pf": 1468.36,
+     "pa": 1330.16,
+     "maxpf": 1697.14,
+     "division": "Shovel"
+    },
+    {
+     "season": 2024,
+     "name": "Jersey Devil Dogz",
+     "w": 4,
+     "l": 10,
+     "t": 0,
+     "pf": 1309.82,
+     "pa": 1414.64,
+     "maxpf": 1615.72,
+     "division": "Shovel"
+    },
+    {
+     "season": 2025,
+     "name": "Jersey Devil Dogz",
+     "w": 6,
+     "l": 8,
+     "t": 0,
+     "pf": 1323.82,
+     "pa": 1384.26,
+     "maxpf": 1529.68,
+     "division": "Shovel"
+    }
+   ],
+   "active": true
+  },
+  {
+   "key": "sponge_bobs",
+   "name": "Sponge Bobs",
+   "aliases": [
+    "Glover's Hill Gorillas",
+    "Spongebob Beerpads"
+   ],
+   "manager": "Ron Wasilewski",
+   "tenure": "2001\u2013",
+   "roster_id": 3,
+   "titles": [
+    2002,
+    2006,
+    2008,
+    2021
+   ],
+   "toilets": [],
+   "alltime": {
+    "w": 173,
+    "l": 172,
+    "t": 6,
+    "games": 351,
+    "pct": 0.5014
+   },
+   "sleeper": [
+    {
+     "season": 2023,
+     "name": "Sponge Bobs",
+     "w": 4,
+     "l": 10,
+     "t": 0,
+     "pf": 1183.92,
+     "pa": 1454.4,
+     "maxpf": 1494.86,
+     "division": "Shovel"
+    },
+    {
+     "season": 2024,
+     "name": "Sponge Bobs",
+     "w": 7,
+     "l": 7,
+     "t": 0,
+     "pf": 1460.46,
+     "pa": 1446.84,
+     "maxpf": 1748.38,
+     "division": "Shovel"
+    },
+    {
+     "season": 2025,
+     "name": "Sponge Bobs",
+     "w": 7,
+     "l": 7,
+     "t": 0,
+     "pf": 1276.24,
+     "pa": 1384.94,
+     "maxpf": 1634.3,
+     "division": "Shovel"
+    }
+   ],
+   "active": true
+  },
+  {
+   "key": "bird_gang",
+   "name": "Bird Gang",
+   "aliases": [
+    "Skillz that Killz",
+    "Young Guns"
+   ],
+   "manager": "John Ryan Jr",
+   "tenure": "2008\u2013",
+   "roster_id": 1,
+   "titles": [
+    2015,
+    2023,
+    2025
+   ],
+   "toilets": [
+    2008,
+    2010
+   ],
+   "alltime": {
+    "w": 127,
+    "l": 110,
+    "t": 2,
+    "games": 239,
+    "pct": 0.5356
+   },
+   "sleeper": [
+    {
+     "season": 2023,
+     "name": "Bird Gang",
+     "w": 10,
+     "l": 4,
+     "t": 0,
+     "pf": 1412.5,
+     "pa": 1355.18,
+     "maxpf": 1658.52,
+     "division": "Pick"
+    },
+    {
+     "season": 2024,
+     "name": "Bird Gang",
+     "w": 7,
+     "l": 7,
+     "t": 0,
+     "pf": 1320.48,
+     "pa": 1351.64,
+     "maxpf": 1556.72,
+     "division": "Pick"
+    },
+    {
+     "season": 2025,
+     "name": "Bird Gang",
+     "w": 14,
+     "l": 0,
+     "t": 0,
+     "pf": 1585.54,
+     "pa": 1268.74,
+     "maxpf": 1893.24,
+     "division": "Pick"
+    }
+   ],
+   "active": true
+  },
+  {
+   "key": "doobies",
+   "name": "Scooby's Doobies",
+   "aliases": [],
+   "manager": "Jim Bayliff",
+   "tenure": "2001\u201319",
+   "roster_id": null,
+   "titles": [
+    1999,
+    2018,
+    2019
+   ],
+   "toilets": [
+    2011,
+    2016
+   ],
+   "alltime": {
+    "w": 136,
+    "l": 139,
+    "t": 4,
+    "games": 279,
+    "pct": 0.4946
+   },
+   "sleeper": [],
+   "active": false
+  },
+  {
+   "key": "skidmarks",
+   "name": "ShenHgts Skidmarks",
+   "aliases": [
+    "ShenHeights Skidmarks",
+    "Purple Helmets"
+   ],
+   "manager": "Mark Mikita",
+   "tenure": "2001\u2013",
+   "roster_id": 8,
+   "titles": [
+    2007
+   ],
+   "toilets": [
+    2006,
+    2014,
+    2015,
+    2022
+   ],
+   "alltime": {
+    "w": 191,
+    "l": 170,
+    "t": 3,
+    "games": 364,
+    "pct": 0.5288
+   },
+   "sleeper": [
+    {
+     "season": 2023,
+     "name": "ShenHgts Skidmarks",
+     "w": 6,
+     "l": 8,
+     "t": 0,
+     "pf": 1340.08,
+     "pa": 1362.3,
+     "maxpf": 1625.74,
+     "division": "Pick"
+    },
+    {
+     "season": 2024,
+     "name": "ShenHgts Skidmarks",
+     "w": 8,
+     "l": 6,
+     "t": 0,
+     "pf": 1355.54,
+     "pa": 1305.4,
+     "maxpf": 1624.14,
+     "division": "Pick"
+    },
+    {
+     "season": 2025,
+     "name": "ShenHgts Skidmarks",
+     "w": 10,
+     "l": 4,
+     "t": 0,
+     "pf": 1478.42,
+     "pa": 1307.8,
+     "maxpf": 1765.3,
+     "division": "Pick"
+    }
+   ],
+   "active": true
+  },
+  {
+   "key": "leathernecks",
+   "name": "Frackville Leathernecks",
+   "aliases": [],
+   "manager": "John Chowansky",
+   "tenure": "2001\u201308",
+   "roster_id": null,
+   "titles": [
+    2001
+   ],
+   "toilets": [
+    2007
+   ],
+   "alltime": {
+    "w": 57,
+    "l": 57,
+    "t": 4,
+    "games": 118,
+    "pct": 0.5
+   },
+   "sleeper": [],
+   "active": false
+  },
+  {
+   "key": "team_honus",
+   "name": "Team Honus",
+   "aliases": [],
+   "manager": "Michael Honus",
+   "tenure": "2008\u201313",
+   "roster_id": null,
+   "titles": [
+    2009
+   ],
+   "toilets": [],
+   "alltime": {
+    "w": 88,
+    "l": 99,
+    "t": 3,
+    "games": 190,
+    "pct": 0.4711
+   },
+   "sleeper": [],
+   "active": false
+  },
+  {
+   "key": "cell_mates",
+   "name": "Cell Mates",
+   "aliases": [],
+   "manager": "Mike Ryan",
+   "tenure": "2000\u201301",
+   "roster_id": null,
+   "titles": [
+    2000
+   ],
+   "toilets": [],
+   "alltime": null,
+   "sleeper": [],
+   "active": false
+  },
+  {
+   "key": "renegades",
+   "name": "Ryan's Renegades",
+   "aliases": [],
+   "manager": "Kevin Ryan",
+   "tenure": "2001\u201320",
+   "roster_id": null,
+   "titles": [],
+   "toilets": [],
+   "alltime": {
+    "w": 146,
+    "l": 138,
+    "t": 5,
+    "games": 289,
+    "pct": 0.5138
+   },
+   "sleeper": [],
+   "active": false
+  },
+  {
+   "key": "silver_stars",
+   "name": "Silver Stars",
+   "aliases": [
+    "Silver Star"
+   ],
+   "manager": "Justin Silver",
+   "tenure": "2014\u2013",
+   "roster_id": 2,
+   "titles": [],
+   "toilets": [],
+   "alltime": {
+    "w": 80,
+    "l": 85,
+    "t": 4,
+    "games": 169,
+    "pct": 0.4852
+   },
+   "sleeper": [
+    {
+     "season": 2023,
+     "name": "Silver Stars",
+     "w": 9,
+     "l": 5,
+     "t": 0,
+     "pf": 1491.52,
+     "pa": 1353.6,
+     "maxpf": 1756.48,
+     "division": "Pick"
+    },
+    {
+     "season": 2024,
+     "name": "Silver Stars",
+     "w": 5,
+     "l": 9,
+     "t": 0,
+     "pf": 1271.46,
+     "pa": 1404.96,
+     "maxpf": 1576.32,
+     "division": "Pick"
+    },
+    {
+     "season": 2025,
+     "name": "Silver Stars",
+     "w": 5,
+     "l": 9,
+     "t": 0,
+     "pf": 1276.26,
+     "pa": 1403.32,
+     "maxpf": 1533.72,
+     "division": "Pick"
+    }
+   ],
+   "active": true
+  },
+  {
+   "key": "haven_boyz",
+   "name": "Haven Boyz",
+   "aliases": [
+    "Ville Boyz"
+   ],
+   "manager": "Zack Chowansky",
+   "tenure": "2020\u2013",
+   "roster_id": 4,
+   "titles": [],
+   "toilets": [],
+   "alltime": {
+    "w": 39,
+    "l": 43,
+    "t": 1,
+    "games": 83,
+    "pct": 0.4759
+   },
+   "sleeper": [
+    {
+     "season": 2023,
+     "name": "Haven Boyz",
+     "w": 6,
+     "l": 8,
+     "t": 0,
+     "pf": 1384.68,
+     "pa": 1389.52,
+     "maxpf": 1716.42,
+     "division": "Shovel"
+    },
+    {
+     "season": 2024,
+     "name": "Haven Boyz",
+     "w": 7,
+     "l": 7,
+     "t": 0,
+     "pf": 1410.78,
+     "pa": 1400.94,
+     "maxpf": 1725.4,
+     "division": "Shovel"
+    },
+    {
+     "season": 2025,
+     "name": "Haven Boyz",
+     "w": 8,
+     "l": 6,
+     "t": 0,
+     "pf": 1461.04,
+     "pa": 1323.84,
+     "maxpf": 1824.52,
+     "division": "Shovel"
+    }
+   ],
+   "active": true
+  },
+  {
+   "key": "steagles",
+   "name": "Steagles",
+   "aliases": [],
+   "manager": "Joe Link",
+   "tenure": "2001\u201307",
+   "roster_id": null,
+   "titles": [],
+   "toilets": [
+    2005
+   ],
+   "alltime": {
+    "w": 57,
+    "l": 64,
+    "t": 2,
+    "games": 123,
+    "pct": 0.4715
+   },
+   "sleeper": [],
+   "active": false
+  },
+  {
+   "key": "big_kahunas",
+   "name": "BIG Kahunas",
+   "aliases": [
+    "Big Kahunas",
+    "Kjryan98"
+   ],
+   "manager": "Kyle Ryan",
+   "tenure": "2009\u2013",
+   "roster_id": 7,
+   "titles": [],
+   "toilets": [
+    2013,
+    2020,
+    2024,
+    2025
+   ],
+   "alltime": {
+    "w": 108,
+    "l": 127,
+    "t": 3,
+    "games": 238,
+    "pct": 0.4601
+   },
+   "sleeper": [
+    {
+     "season": 2023,
+     "name": "Kjryan98",
+     "w": 5,
+     "l": 9,
+     "t": 0,
+     "pf": 1331.06,
+     "pa": 1432.28,
+     "maxpf": 1704.64,
+     "division": "Pick"
+    },
+    {
+     "season": 2024,
+     "name": "BIG Kahunas",
+     "w": 6,
+     "l": 8,
+     "t": 0,
+     "pf": 1424.52,
+     "pa": 1487.8,
+     "maxpf": 1742.02,
+     "division": "Pick"
+    },
+    {
+     "season": 2025,
+     "name": "BIG Kahunas",
+     "w": 3,
+     "l": 10,
+     "t": 1,
+     "pf": 1219.22,
+     "pa": 1357.9,
+     "maxpf": 1550.8,
+     "division": "Pick"
+    }
+   ],
+   "active": true
+  },
+  {
+   "key": "mexican_mafia",
+   "name": "Mexican Mafia",
+   "aliases": [
+    "BU Boys"
+   ],
+   "manager": "Alberto Ruiz",
+   "tenure": "2014\u2013",
+   "roster_id": 9,
+   "titles": [],
+   "toilets": [
+    2019,
+    2023
+   ],
+   "alltime": {
+    "w": 75,
+    "l": 91,
+    "t": 3,
+    "games": 169,
+    "pct": 0.4527
+   },
+   "sleeper": [
+    {
+     "season": 2023,
+     "name": "Mexican Mafia",
+     "w": 6,
+     "l": 8,
+     "t": 0,
+     "pf": 1332.98,
+     "pa": 1432.52,
+     "maxpf": 1630.6,
+     "division": "Shovel"
+    },
+    {
+     "season": 2024,
+     "name": "Mexican Mafia",
+     "w": 6,
+     "l": 8,
+     "t": 0,
+     "pf": 1273.74,
+     "pa": 1320.2,
+     "maxpf": 1511.96,
+     "division": "Shovel"
+    },
+    {
+     "season": 2025,
+     "name": "Mexican Mafia",
+     "w": 4,
+     "l": 10,
+     "t": 0,
+     "pf": 1201.9,
+     "pa": 1320.38,
+     "maxpf": 1436.24,
+     "division": "Shovel"
+    }
+   ],
+   "active": true
+  },
+  {
+   "key": "dilly_dilly",
+   "name": "Dilly Dilly",
+   "aliases": [
+    "Captain Quint",
+    "Brendawg21"
+   ],
+   "manager": "Brendan Ryan",
+   "tenure": "2020\u2013",
+   "roster_id": 10,
+   "titles": [],
+   "toilets": [],
+   "alltime": {
+    "w": 37,
+    "l": 45,
+    "t": 1,
+    "games": 83,
+    "pct": 0.4518
+   },
+   "sleeper": [
+    {
+     "season": 2023,
+     "name": "Brendawg21",
+     "w": 8,
+     "l": 6,
+     "t": 0,
+     "pf": 1465.74,
+     "pa": 1249.62,
+     "maxpf": 1714.98,
+     "division": "Pick"
+    },
+    {
+     "season": 2024,
+     "name": "Brendawg21",
+     "w": 8,
+     "l": 6,
+     "t": 0,
+     "pf": 1366.52,
+     "pa": 1295.44,
+     "maxpf": 1614.82,
+     "division": "Pick"
+    },
+    {
+     "season": 2025,
+     "name": "Brendawg21",
+     "w": 4,
+     "l": 9,
+     "t": 1,
+     "pf": 1299.74,
+     "pa": 1382.32,
+     "maxpf": 1533.92,
+     "division": "Pick"
+    }
+   ],
+   "active": true
+  },
+  {
+   "key": "panthers",
+   "name": "Pekala's Panthers",
+   "aliases": [
+    "Linda Blair"
+   ],
+   "manager": "John Pekala",
+   "tenure": "2001\u201313",
+   "roster_id": null,
+   "titles": [],
+   "toilets": [
+    2004,
+    2012
+   ],
+   "alltime": {
+    "w": 86,
+    "l": 105,
+    "t": 3,
+    "games": 194,
+    "pct": 0.451
+   },
+   "sleeper": [],
+   "active": false
+  }
+ ],
+ "champions": [
+  {
+   "year": 1999,
+   "champion_key": "doobies",
+   "champion_team": "Scooby's Doobies",
+   "champion_manager": "Jim Bayliff",
+   "toilet_key": null,
+   "toilet_team": null,
+   "toilet_manager": null
+  },
+  {
+   "year": 2000,
+   "champion_key": "cell_mates",
+   "champion_team": "Cell Mates",
+   "champion_manager": "Mike Ryan",
+   "toilet_key": null,
+   "toilet_team": null,
+   "toilet_manager": null
+  },
+  {
+   "year": 2001,
+   "champion_key": "leathernecks",
+   "champion_team": "Frackville Leathernecks",
+   "champion_manager": "John Chowansky",
+   "toilet_key": null,
+   "toilet_team": null,
+   "toilet_manager": null
+  },
+  {
+   "year": 2002,
+   "champion_key": "sponge_bobs",
+   "champion_team": "Spongebob Beerpads",
+   "champion_manager": "Ron Wasilewski",
+   "toilet_key": null,
+   "toilet_team": null,
+   "toilet_manager": null
+  },
+  {
+   "year": 2003,
+   "champion_key": "devil_dogz",
+   "champion_team": "Jersey Devil Dogz",
+   "champion_manager": "Chubby Ryan",
+   "toilet_key": "dirty_south",
+   "toilet_team": "Miano's Men",
+   "toilet_manager": "Erik Marnell"
+  },
+  {
+   "year": 2004,
+   "champion_key": "devil_dogz",
+   "champion_team": "Jersey Devil Dogz",
+   "champion_manager": "Chubby Ryan",
+   "toilet_key": "panthers",
+   "toilet_team": "Pekala's Panthers",
+   "toilet_manager": "John Pekala"
+  },
+  {
+   "year": 2005,
+   "champion_key": "devil_dogz",
+   "champion_team": "Jersey Devil Dogz",
+   "champion_manager": "Chubby Ryan",
+   "toilet_key": "steagles",
+   "toilet_team": "Steagles",
+   "toilet_manager": "Joe Link"
+  },
+  {
+   "year": 2006,
+   "champion_key": "sponge_bobs",
+   "champion_team": "Spongebob Beerpads",
+   "champion_manager": "Ron Wasilewski",
+   "toilet_key": "skidmarks",
+   "toilet_team": "Purple Helmets",
+   "toilet_manager": "Mark Mikita"
+  },
+  {
+   "year": 2007,
+   "champion_key": "skidmarks",
+   "champion_team": "Purple Helmets",
+   "champion_manager": "Mark Mikita",
+   "toilet_key": "leathernecks",
+   "toilet_team": "Frackville Leathernecks",
+   "toilet_manager": "John Chowansky"
+  },
+  {
+   "year": 2008,
+   "champion_key": "sponge_bobs",
+   "champion_team": "Spongebob Beerpads",
+   "champion_manager": "Ron Wasilewski",
+   "toilet_key": "bird_gang",
+   "toilet_team": "Young Guns",
+   "toilet_manager": "John Ryan Jr"
+  },
+  {
+   "year": 2009,
+   "champion_key": "team_honus",
+   "champion_team": "Team Honus",
+   "champion_manager": "Michael Honus",
+   "toilet_key": "devil_dogz",
+   "toilet_team": "Jersey Devil Dogz",
+   "toilet_manager": "Chubby Ryan"
+  },
+  {
+   "year": 2010,
+   "champion_key": "dirty_south",
+   "champion_team": "Dirty South",
+   "champion_manager": "Erik Marnell",
+   "toilet_key": "bird_gang",
+   "toilet_team": "Young Guns",
+   "toilet_manager": "John Ryan Jr"
+  },
+  {
+   "year": 2011,
+   "champion_key": "dirty_south",
+   "champion_team": "Dirty South",
+   "champion_manager": "Erik Marnell",
+   "toilet_key": "doobies",
+   "toilet_team": "Scooby's Doobies",
+   "toilet_manager": "Jim Bayliff"
+  },
+  {
+   "year": 2012,
+   "champion_key": "dirty_south",
+   "champion_team": "Dirty South",
+   "champion_manager": "Erik Marnell",
+   "toilet_key": "panthers",
+   "toilet_team": "Pekala's Panthers",
+   "toilet_manager": "John Pekala"
+  },
+  {
+   "year": 2013,
+   "champion_key": "devil_dogz",
+   "champion_team": "Jersey Devil Dogz",
+   "champion_manager": "Chubby Ryan",
+   "toilet_key": "big_kahunas",
+   "toilet_team": "Big Kahunas",
+   "toilet_manager": "Kyle Ryan"
+  },
+  {
+   "year": 2014,
+   "champion_key": "devil_dogz",
+   "champion_team": "Jersey Devil Dogz",
+   "champion_manager": "Chubby Ryan",
+   "toilet_key": "skidmarks",
+   "toilet_team": "Purple Helmets",
+   "toilet_manager": "Mark Mikita"
+  },
+  {
+   "year": 2015,
+   "champion_key": "bird_gang",
+   "champion_team": "Skillz that Killz",
+   "champion_manager": "John Ryan Jr",
+   "toilet_key": "skidmarks",
+   "toilet_team": "Purple Helmets",
+   "toilet_manager": "Mark Mikita"
+  },
+  {
+   "year": 2016,
+   "champion_key": "devil_dogz",
+   "champion_team": "Jersey Devil Dogz",
+   "champion_manager": "Chubby Ryan",
+   "toilet_key": "doobies",
+   "toilet_team": "Scooby's Doobies",
+   "toilet_manager": "Jim Bayliff"
+  },
+  {
+   "year": 2017,
+   "champion_key": "dirty_south",
+   "champion_team": "Dirty South",
+   "champion_manager": "Erik Marnell",
+   "toilet_key": "devil_dogz",
+   "toilet_team": "Jersey Devil Dogz",
+   "toilet_manager": "Chubby Ryan"
+  },
+  {
+   "year": 2018,
+   "champion_key": "doobies",
+   "champion_team": "Scooby's Doobies",
+   "champion_manager": "Jim Bayliff",
+   "toilet_key": "dirty_south",
+   "toilet_team": "Dirty South",
+   "toilet_manager": "Erik Marnell"
+  },
+  {
+   "year": 2019,
+   "champion_key": "doobies",
+   "champion_team": "Scooby's Doobies",
+   "champion_manager": "Jim Bayliff",
+   "toilet_key": "mexican_mafia",
+   "toilet_team": "Mexican Mafia",
+   "toilet_manager": "Alberto Ruiz"
+  },
+  {
+   "year": 2020,
+   "champion_key": "dirty_south",
+   "champion_team": "Dirty South",
+   "champion_manager": "Erik Marnell",
+   "toilet_key": "big_kahunas",
+   "toilet_team": "Big Kahunas",
+   "toilet_manager": "Kyle Ryan"
+  },
+  {
+   "year": 2021,
+   "champion_key": "sponge_bobs",
+   "champion_team": "Spongebob Beerpads",
+   "champion_manager": "Ron Wasilewski",
+   "toilet_key": "dirty_south",
+   "toilet_team": "Dirty South",
+   "toilet_manager": "Erik Marnell"
+  },
+  {
+   "year": 2022,
+   "champion_key": "dirty_south",
+   "champion_team": "Dirty South",
+   "champion_manager": "Erik Marnell",
+   "toilet_key": "skidmarks",
+   "toilet_team": "ShenHeights SkidMarks",
+   "toilet_manager": "Mark Mikita"
+  },
+  {
+   "year": 2023,
+   "champion_key": "bird_gang",
+   "champion_team": "Bird Gang",
+   "champion_manager": "John Ryan Jr",
+   "toilet_key": "mexican_mafia",
+   "toilet_team": "Mexican Mafia",
+   "toilet_manager": "Alberto Ruiz"
+  },
+  {
+   "year": 2024,
+   "champion_key": "dirty_south",
+   "champion_team": "Dirty South",
+   "champion_manager": "Erik Marnell",
+   "toilet_key": "big_kahunas",
+   "toilet_team": "Big Kahunas",
+   "toilet_manager": "Kyle Ryan"
+  },
+  {
+   "year": 2025,
+   "champion_key": "bird_gang",
+   "champion_team": "Bird Gang",
+   "champion_manager": "John Ryan Jr",
+   "toilet_key": "big_kahunas",
+   "toilet_team": "Big Kahunas",
+   "toilet_manager": "Kyle Ryan"
+  }
+ ],
+ "record_book": {
+  "most_points_season": {
+   "label": "Most Points \u2014 Season",
+   "unit": "pts",
+   "rows": [
+    {
+     "key": "bird_gang",
+     "name": "Bird Gang",
+     "year": 2025,
+     "value": 1585.54,
+     "src": "sleeper",
+     "current_name": "Bird Gang",
+     "manager": "John Ryan Jr"
+    },
+    {
+     "key": "dirty_south",
+     "name": "Dirty South",
+     "year": 2022,
+     "value": 1576,
+     "src": "sheet",
+     "current_name": "Dirty South",
+     "manager": "Erik Marnell"
+    },
+    {
+     "key": "dirty_south",
+     "name": "Dirty South",
+     "year": 2024,
+     "value": 1568.34,
+     "src": "sleeper",
+     "current_name": "Dirty South",
+     "manager": "Erik Marnell"
+    },
+    {
+     "key": "sponge_bobs",
+     "name": "Spongebob Beerpads",
+     "year": 2021,
+     "value": 1522,
+     "src": "sheet",
+     "current_name": "Sponge Bobs",
+     "manager": "Ron Wasilewski"
+    },
+    {
+     "key": "silver_stars",
+     "name": "Silver Stars",
+     "year": 2023,
+     "value": 1491.52,
+     "src": "sleeper",
+     "current_name": "Silver Stars",
+     "manager": "Justin Silver"
+    }
+   ]
+  },
+  "least_points_season": {
+   "label": "Fewest Points \u2014 Season",
+   "unit": "pts",
+   "rows": [
+    {
+     "key": "team_honus",
+     "name": "Team Honus",
+     "year": 2003,
+     "value": 593,
+     "src": "sheet",
+     "current_name": "Team Honus",
+     "manager": "Michael Honus"
+    },
+    {
+     "key": "skidmarks",
+     "name": "Purple Helmets",
+     "year": 2008,
+     "value": 673,
+     "src": "sheet",
+     "current_name": "ShenHgts Skidmarks",
+     "manager": "Mark Mikita"
+    },
+    {
+     "key": "cell_mates",
+     "name": "Cell Mates",
+     "year": 2001,
+     "value": 679,
+     "src": "sheet",
+     "current_name": "Cell Mates",
+     "manager": "Mike Ryan"
+    },
+    {
+     "key": "bird_gang",
+     "name": "Skillz that Killz",
+     "year": 2017,
+     "value": 690,
+     "src": "sheet",
+     "current_name": "Bird Gang",
+     "manager": "John Ryan Jr"
+    },
+    {
+     "key": "doobies",
+     "name": "Scooby's Doobies",
+     "year": 2003,
+     "value": 694,
+     "src": "sheet",
+     "current_name": "Scooby's Doobies",
+     "manager": "Jim Bayliff"
+    }
+   ]
+  },
+  "most_allowed_season": {
+   "label": "Most Points Allowed \u2014 Season",
+   "unit": "pts",
+   "rows": [
+    {
+     "key": "big_kahunas",
+     "name": "BIG Kahunas",
+     "year": 2024,
+     "value": 1487.8,
+     "src": "sleeper",
+     "current_name": "BIG Kahunas",
+     "manager": "Kyle Ryan"
+    },
+    {
+     "key": "sponge_bobs",
+     "name": "Sponge Bobs",
+     "year": 2023,
+     "value": 1454.4,
+     "src": "sleeper",
+     "current_name": "Sponge Bobs",
+     "manager": "Ron Wasilewski"
+    },
+    {
+     "key": "mexican_mafia",
+     "name": "Mexican Mafia",
+     "year": 2022,
+     "value": 1450,
+     "src": "sheet",
+     "current_name": "Mexican Mafia",
+     "manager": "Alberto Ruiz"
+    },
+    {
+     "key": "sponge_bobs",
+     "name": "Sponge Bobs",
+     "year": 2024,
+     "value": 1446.84,
+     "src": "sleeper",
+     "current_name": "Sponge Bobs",
+     "manager": "Ron Wasilewski"
+    },
+    {
+     "key": "dirty_south",
+     "name": "Dirty South",
+     "year": 2025,
+     "value": 1441.46,
+     "src": "sleeper",
+     "current_name": "Dirty South",
+     "manager": "Erik Marnell"
+    }
+   ]
+  },
+  "least_allowed_season": {
+   "label": "Fewest Points Allowed \u2014 Season",
+   "unit": "pts",
+   "rows": [
+    {
+     "key": "doobies",
+     "name": "Scooby's Doobies",
+     "year": 2005,
+     "value": 677,
+     "src": "sheet",
+     "current_name": "Scooby's Doobies",
+     "manager": "Jim Bayliff"
+    },
+    {
+     "key": "skidmarks",
+     "name": "Purple Helmets",
+     "year": 2003,
+     "value": 722,
+     "src": "sheet",
+     "current_name": "ShenHgts Skidmarks",
+     "manager": "Mark Mikita"
+    },
+    {
+     "key": "dirty_south",
+     "name": "Miano's Men",
+     "year": 2001,
+     "value": 731,
+     "src": "sheet",
+     "current_name": "Dirty South",
+     "manager": "Erik Marnell"
+    },
+    {
+     "key": "devil_dogz",
+     "name": "Jersey Devil Dogz",
+     "year": 2005,
+     "value": 734,
+     "src": "sheet",
+     "current_name": "Jersey Devil Dogz",
+     "manager": "Chubby Ryan"
+    },
+    {
+     "key": "team_honus",
+     "name": "Team Honus",
+     "year": 2003,
+     "value": 742,
+     "src": "sheet",
+     "current_name": "Team Honus",
+     "manager": "Michael Honus"
+    }
+   ]
+  },
+  "most_points_game": {
+   "label": "Most Points \u2014 Game",
+   "unit": "pts",
+   "rows": [
+    {
+     "key": "bird_gang",
+     "name": "Bird Gang",
+     "year": 2021,
+     "value": 170,
+     "src": "sheet",
+     "current_name": "Bird Gang",
+     "manager": "John Ryan Jr"
+    },
+    {
+     "key": "big_kahunas",
+     "name": "Big Kahunas",
+     "year": 2019,
+     "value": 169,
+     "src": "sheet",
+     "current_name": "BIG Kahunas",
+     "manager": "Kyle Ryan"
+    },
+    {
+     "key": "dirty_south",
+     "name": "Dirty South",
+     "year": 2022,
+     "value": 167,
+     "src": "sheet",
+     "current_name": "Dirty South",
+     "manager": "Erik Marnell"
+    },
+    {
+     "key": "mexican_mafia",
+     "name": "Mexican Mafia",
+     "year": 2025,
+     "value": 165.14,
+     "src": "sleeper",
+     "current_name": "Mexican Mafia",
+     "manager": "Alberto Ruiz"
+    },
+    {
+     "key": "mexican_mafia",
+     "name": "Mexican Mafia",
+     "year": 2025,
+     "value": 163.0,
+     "src": "sleeper",
+     "current_name": "Mexican Mafia",
+     "manager": "Alberto Ruiz"
+    }
+   ]
+  },
+  "least_points_game": {
+   "label": "Fewest Points \u2014 Game",
+   "unit": "pts",
+   "rows": [
+    {
+     "key": "panthers",
+     "name": "Pekala's Panthers",
+     "year": 2009,
+     "value": 10,
+     "src": "sheet",
+     "current_name": "Pekala's Panthers",
+     "manager": "John Pekala"
+    },
+    {
+     "key": "team_honus",
+     "name": "Team Honus",
+     "year": 2003,
+     "value": 16,
+     "src": "sheet",
+     "current_name": "Team Honus",
+     "manager": "Michael Honus"
+    },
+    {
+     "key": "devil_dogz",
+     "name": "Jersey Devil Dogz",
+     "year": 2015,
+     "value": 19,
+     "src": "sheet",
+     "current_name": "Jersey Devil Dogz",
+     "manager": "Chubby Ryan"
+    },
+    {
+     "key": "panthers",
+     "name": "Pekala's Panthers",
+     "year": 2007,
+     "value": 21,
+     "src": "sheet",
+     "current_name": "Pekala's Panthers",
+     "manager": "John Pekala"
+    },
+    {
+     "key": "panthers",
+     "name": "Pekala's Panthers",
+     "year": 2011,
+     "value": 22,
+     "src": "sheet",
+     "current_name": "Pekala's Panthers",
+     "manager": "John Pekala"
+    }
+   ]
+  },
+  "most_allowed_game": {
+   "label": "Most Points Allowed \u2014 Game",
+   "unit": "pts",
+   "rows": [
+    {
+     "key": "silver_stars",
+     "name": "Silver Star",
+     "year": 2021,
+     "value": 170,
+     "src": "sheet",
+     "current_name": "Silver Stars",
+     "manager": "Justin Silver"
+    },
+    {
+     "key": "renegades",
+     "name": "Ryan's Renegades",
+     "year": 2019,
+     "value": 169,
+     "src": "sheet",
+     "current_name": "Ryan's Renegades",
+     "manager": "Kevin Ryan"
+    },
+    {
+     "key": "big_kahunas",
+     "name": "Big Kahunas",
+     "year": 2022,
+     "value": 167,
+     "src": "sheet",
+     "current_name": "BIG Kahunas",
+     "manager": "Kyle Ryan"
+    },
+    {
+     "key": "silver_stars",
+     "name": "Silver Stars",
+     "year": 2025,
+     "value": 165.14,
+     "src": "sleeper",
+     "current_name": "Silver Stars",
+     "manager": "Justin Silver"
+    },
+    {
+     "key": "silver_stars",
+     "name": "Silver Stars",
+     "year": 2025,
+     "value": 163.0,
+     "src": "sleeper",
+     "current_name": "Silver Stars",
+     "manager": "Justin Silver"
+    }
+   ]
+  },
+  "least_allowed_game": {
+   "label": "Fewest Points Allowed \u2014 Game",
+   "unit": "pts",
+   "rows": [
+    {
+     "key": "sponge_bobs",
+     "name": "Spongebob Beerpads",
+     "year": 2009,
+     "value": 10,
+     "src": "sheet",
+     "current_name": "Sponge Bobs",
+     "manager": "Ron Wasilewski"
+    },
+    {
+     "key": "skidmarks",
+     "name": "Purple Helmets",
+     "year": 2003,
+     "value": 16,
+     "src": "sheet",
+     "current_name": "ShenHgts Skidmarks",
+     "manager": "Mark Mikita"
+    },
+    {
+     "key": "mexican_mafia",
+     "name": "Mexican Mafia",
+     "year": 2015,
+     "value": 19,
+     "src": "sheet",
+     "current_name": "Mexican Mafia",
+     "manager": "Alberto Ruiz"
+    },
+    {
+     "key": "skidmarks",
+     "name": "Purple Helmets",
+     "year": 2007,
+     "value": 21,
+     "src": "sheet",
+     "current_name": "ShenHgts Skidmarks",
+     "manager": "Mark Mikita"
+    },
+    {
+     "key": "dirty_south",
+     "name": "Dirty South",
+     "year": 2011,
+     "value": 22,
+     "src": "sheet",
+     "current_name": "Dirty South",
+     "manager": "Erik Marnell"
+    }
+   ]
+  },
+  "best_win_pct": {
+   "label": "Best Win % \u2014 Season",
+   "unit": "pct",
+   "rows": [
+    {
+     "key": "bird_gang",
+     "name": "Bird Gang",
+     "year": 2025,
+     "value": 1.0,
+     "src": "sleeper",
+     "current_name": "Bird Gang",
+     "manager": "John Ryan Jr"
+    },
+    {
+     "key": "mexican_mafia",
+     "name": "Mexican Mafia",
+     "year": 2021,
+     "value": 0.857,
+     "src": "sheet",
+     "current_name": "Mexican Mafia",
+     "manager": "Alberto Ruiz"
+    },
+    {
+     "key": "dirty_south",
+     "name": "Dirty South",
+     "year": 2024,
+     "value": 0.857,
+     "src": "sleeper",
+     "current_name": "Dirty South",
+     "manager": "Erik Marnell"
+    },
+    {
+     "key": "dirty_south",
+     "name": "Dirty South",
+     "year": 2022,
+     "value": 0.786,
+     "src": "sheet",
+     "current_name": "Dirty South",
+     "manager": "Erik Marnell"
+    },
+    {
+     "key": "devil_dogz",
+     "name": "Jersey Devil Dogz",
+     "year": 2023,
+     "value": 0.786,
+     "src": "sleeper",
+     "current_name": "Jersey Devil Dogz",
+     "manager": "Chubby Ryan"
+    }
+   ]
+  },
+  "worst_win_pct": {
+   "label": "Worst Win % \u2014 Season",
+   "unit": "pct",
+   "rows": [
+    {
+     "key": "team_honus",
+     "name": "Team Honus",
+     "year": 2004,
+     "value": 0.071,
+     "src": "sheet",
+     "current_name": "Team Honus",
+     "manager": "Michael Honus"
+    },
+    {
+     "key": "bird_gang",
+     "name": "Skillz that Killz",
+     "year": 2016,
+     "value": 0.077,
+     "src": "sheet",
+     "current_name": "Bird Gang",
+     "manager": "John Ryan Jr"
+    },
+    {
+     "key": "sponge_bobs",
+     "name": "Spongebob Beerpads",
+     "year": 2010,
+     "value": 0.154,
+     "src": "sheet",
+     "current_name": "Sponge Bobs",
+     "manager": "Ron Wasilewski"
+    },
+    {
+     "key": "mexican_mafia",
+     "name": "Mexican Mafia",
+     "year": 2022,
+     "value": 0.214,
+     "src": "sheet",
+     "current_name": "Mexican Mafia",
+     "manager": "Alberto Ruiz"
+    },
+    {
+     "key": "big_kahunas",
+     "name": "BIG Kahunas",
+     "year": 2025,
+     "value": 0.25,
+     "src": "sleeper",
+     "current_name": "BIG Kahunas",
+     "manager": "Kyle Ryan"
+    }
+   ]
+  },
+  "most_wins": {
+   "label": "Most Wins \u2014 Season",
+   "unit": "int",
+   "rows": [
+    {
+     "key": "bird_gang",
+     "name": "Bird Gang",
+     "year": 2025,
+     "value": 14,
+     "src": "sleeper",
+     "current_name": "Bird Gang",
+     "manager": "John Ryan Jr"
+    },
+    {
+     "key": "mexican_mafia",
+     "name": "Mexican Mafia",
+     "year": 2021,
+     "value": 12,
+     "src": "sheet",
+     "current_name": "Mexican Mafia",
+     "manager": "Alberto Ruiz"
+    },
+    {
+     "key": "dirty_south",
+     "name": "Dirty South",
+     "year": 2024,
+     "value": 12,
+     "src": "sleeper",
+     "current_name": "Dirty South",
+     "manager": "Erik Marnell"
+    },
+    {
+     "key": "dirty_south",
+     "name": "Dirty South",
+     "year": 2022,
+     "value": 11,
+     "src": "sheet",
+     "current_name": "Dirty South",
+     "manager": "Erik Marnell"
+    },
+    {
+     "key": "steagles",
+     "name": "Steagles",
+     "year": 2002,
+     "value": 11,
+     "src": "sheet",
+     "current_name": "Steagles",
+     "manager": "Joe Link"
+    },
+    {
+     "key": "sponge_bobs",
+     "name": "Spongebob Beerpads",
+     "year": 2003,
+     "value": 11,
+     "src": "sheet",
+     "current_name": "Sponge Bobs",
+     "manager": "Ron Wasilewski"
+    },
+    {
+     "key": "devil_dogz",
+     "name": "Jersey Devil Dogz",
+     "year": 2023,
+     "value": 11,
+     "src": "sleeper",
+     "current_name": "Jersey Devil Dogz",
+     "manager": "Chubby Ryan"
+    }
+   ]
+  },
+  "least_wins": {
+   "label": "Fewest Wins \u2014 Season",
+   "unit": "int",
+   "rows": [
+    {
+     "key": "team_honus",
+     "name": "Team Honus",
+     "year": 2004,
+     "value": 1,
+     "src": "sheet",
+     "current_name": "Team Honus",
+     "manager": "Michael Honus"
+    },
+    {
+     "key": "bird_gang",
+     "name": "Skillz that Killz",
+     "year": 2016,
+     "value": 1,
+     "src": "sheet",
+     "current_name": "Bird Gang",
+     "manager": "John Ryan Jr"
+    },
+    {
+     "key": "sponge_bobs",
+     "name": "Spongebob Beerpads",
+     "year": 2010,
+     "value": 2,
+     "src": "sheet",
+     "current_name": "Sponge Bobs",
+     "manager": "Ron Wasilewski"
+    },
+    {
+     "key": "mexican_mafia",
+     "name": "Mexican Mafia",
+     "year": 2022,
+     "value": 3,
+     "src": "sheet",
+     "current_name": "Mexican Mafia",
+     "manager": "Alberto Ruiz"
+    },
+    {
+     "key": "doobies",
+     "name": "Scooby's Doobies",
+     "year": 2003,
+     "value": 3,
+     "src": "sheet",
+     "current_name": "Scooby's Doobies",
+     "manager": "Jim Bayliff"
+    },
+    {
+     "key": "big_kahunas",
+     "name": "BIG Kahunas",
+     "year": 2025,
+     "value": 3,
+     "src": "sleeper",
+     "current_name": "BIG Kahunas",
+     "manager": "Kyle Ryan"
+    }
+   ]
+  },
+  "best_margin": {
+   "label": "Biggest Blowout",
+   "unit": "pts",
+   "rows": [
+    {
+     "key": "devil_dogz",
+     "name": "Jersey Devil Dogz",
+     "year": 2018,
+     "value": 99,
+     "src": "sheet",
+     "current_name": "Jersey Devil Dogz",
+     "manager": "Chubby Ryan"
+    },
+    {
+     "key": "big_kahunas",
+     "name": "Big Kahunas",
+     "year": 2018,
+     "value": 98,
+     "src": "sheet",
+     "current_name": "BIG Kahunas",
+     "manager": "Kyle Ryan"
+    },
+    {
+     "key": "silver_stars",
+     "name": "Silver Star",
+     "year": 2021,
+     "value": 88,
+     "src": "sheet",
+     "current_name": "Silver Stars",
+     "manager": "Justin Silver"
+    },
+    {
+     "key": "dirty_south",
+     "name": "Dirty South",
+     "year": 2025,
+     "value": 85.74,
+     "src": "sleeper",
+     "current_name": "Dirty South",
+     "manager": "Erik Marnell"
+    },
+    {
+     "key": "mexican_mafia",
+     "name": "Mexican Mafia",
+     "year": 2023,
+     "value": 83.54,
+     "src": "sleeper",
+     "current_name": "Mexican Mafia",
+     "manager": "Alberto Ruiz"
+    }
+   ]
+  },
+  "worst_margin": {
+   "label": "Worst Beating Taken",
+   "unit": "pts",
+   "rows": [
+    {
+     "key": "mexican_mafia",
+     "name": "Mexican Mafia",
+     "year": 2018,
+     "value": -99,
+     "src": "sheet",
+     "current_name": "Mexican Mafia",
+     "manager": "Alberto Ruiz"
+    },
+    {
+     "key": "skidmarks",
+     "name": "ShenHeights Skidmarks",
+     "year": 2018,
+     "value": -98,
+     "src": "sheet",
+     "current_name": "ShenHgts Skidmarks",
+     "manager": "Mark Mikita"
+    },
+    {
+     "key": "dirty_south",
+     "name": "Dirty South",
+     "year": 2021,
+     "value": -88,
+     "src": "sheet",
+     "current_name": "Dirty South",
+     "manager": "Erik Marnell"
+    },
+    {
+     "key": "sponge_bobs",
+     "name": "Sponge Bobs",
+     "year": 2025,
+     "value": -85.74,
+     "src": "sleeper",
+     "current_name": "Sponge Bobs",
+     "manager": "Ron Wasilewski"
+    },
+    {
+     "key": "big_kahunas",
+     "name": "BIG Kahunas",
+     "year": 2023,
+     "value": -83.54,
+     "src": "sleeper",
+     "current_name": "BIG Kahunas",
+     "manager": "Kyle Ryan"
+    }
+   ]
+  },
+  "longest_win_streak": {
+   "label": "Longest Winning Streak",
+   "unit": "int",
+   "note": "playoff wins included",
+   "rows": [
+    {
+     "key": "bird_gang",
+     "name": "Bird Gang",
+     "year": 2025,
+     "value": 16,
+     "src": "sleeper",
+     "current_name": "Bird Gang",
+     "manager": "John Ryan Jr",
+     "note": "active"
+    },
+    {
+     "key": "mexican_mafia",
+     "name": "Mexican Mafia",
+     "year": 2021,
+     "value": 10,
+     "src": "sheet",
+     "current_name": "Mexican Mafia",
+     "manager": "Alberto Ruiz"
+    },
+    {
+     "key": "bird_gang",
+     "name": "Bird Gang",
+     "year": 2023,
+     "value": 9,
+     "src": "sleeper",
+     "current_name": "Bird Gang",
+     "manager": "John Ryan Jr"
+    },
+    {
+     "key": "dirty_south",
+     "name": "Dirty South",
+     "year": 2024,
+     "value": 7,
+     "src": "sleeper",
+     "current_name": "Dirty South",
+     "manager": "Erik Marnell"
+    },
+    {
+     "key": "sponge_bobs",
+     "name": "Spongebob Beerpads",
+     "year": 2006,
+     "value": 7,
+     "src": "sheet",
+     "current_name": "Sponge Bobs",
+     "manager": "Ron Wasilewski"
+    },
+    {
+     "key": "big_kahunas",
+     "name": "BIG Kahunas",
+     "year": 2024,
+     "value": 7,
+     "src": "sleeper",
+     "current_name": "BIG Kahunas",
+     "manager": "Kyle Ryan"
+    }
+   ]
+  },
+  "longest_lose_streak": {
+   "label": "Longest Losing Streak",
+   "unit": "int",
+   "rows": [
+    {
+     "key": "dilly_dilly",
+     "name": "Captain Quint",
+     "year": 2021,
+     "value": 9,
+     "src": "sheet",
+     "current_name": "Dilly Dilly",
+     "manager": "Brendan Ryan"
+    },
+    {
+     "key": "team_honus",
+     "name": "Team Honus",
+     "year": 2004,
+     "value": 9,
+     "src": "sheet",
+     "current_name": "Team Honus",
+     "manager": "Michael Honus"
+    },
+    {
+     "key": "doobies",
+     "name": "Scooby's Doobies",
+     "year": 2003,
+     "value": 8,
+     "src": "sheet",
+     "current_name": "Scooby's Doobies",
+     "manager": "Jim Bayliff"
+    },
+    {
+     "key": "steagles",
+     "name": "Steagles",
+     "year": 2007,
+     "value": 8,
+     "src": "sheet",
+     "current_name": "Steagles",
+     "manager": "Joe Link"
+    },
+    {
+     "key": "doobies",
+     "name": "Scooby's Doobies",
+     "year": 2008,
+     "value": 8,
+     "src": "sheet",
+     "current_name": "Scooby's Doobies",
+     "manager": "Jim Bayliff"
+    }
+   ]
+  },
+  "most_weekly_highs": {
+   "label": "Most Weekly High Scores \u2014 Season",
+   "unit": "num",
+   "note": "regular season",
+   "rows": [
+    {
+     "key": "skidmarks",
+     "name": "ShenHeights SkidMarks",
+     "year": 2016,
+     "value": 7,
+     "src": "sheet",
+     "current_name": "ShenHgts Skidmarks",
+     "manager": "Mark Mikita"
+    },
+    {
+     "key": "skidmarks",
+     "name": "ShenHeights SkidMarks",
+     "year": 2020,
+     "value": 5.5,
+     "src": "sheet",
+     "current_name": "ShenHgts Skidmarks",
+     "manager": "Mark Mikita"
+    },
+    {
+     "key": "dirty_south",
+     "name": "Dirty South",
+     "year": 2022,
+     "value": 5,
+     "src": "sheet",
+     "current_name": "Dirty South",
+     "manager": "Erik Marnell"
+    },
+    {
+     "key": "skidmarks",
+     "name": "Purple Helmets",
+     "year": 2003,
+     "value": 5,
+     "src": "sheet",
+     "current_name": "ShenHgts Skidmarks",
+     "manager": "Mark Mikita"
+    },
+    {
+     "key": "team_honus",
+     "name": "Team Honus",
+     "year": 2010,
+     "value": 5,
+     "src": "sheet",
+     "current_name": "Team Honus",
+     "manager": "Michael Honus"
+    },
+    {
+     "key": "dirty_south",
+     "name": "Dirty South",
+     "year": 2024,
+     "value": 5,
+     "src": "sleeper",
+     "current_name": "Dirty South",
+     "manager": "Erik Marnell"
+    }
+   ]
+  }
+ },
+ "head_to_head": {
+  "dirty_south|sponge_bobs": [
+   7,
+   3,
+   0
+  ],
+  "sponge_bobs|dirty_south": [
+   3,
+   7,
+   0
+  ],
+  "devil_dogz|haven_boyz": [
+   3,
+   3,
+   0
+  ],
+  "haven_boyz|devil_dogz": [
+   3,
+   3,
+   0
+  ],
+  "mexican_mafia|big_kahunas": [
+   4,
+   2,
+   0
+  ],
+  "big_kahunas|mexican_mafia": [
+   2,
+   4,
+   0
+  ],
+  "dilly_dilly|skidmarks": [
+   4,
+   3,
+   0
+  ],
+  "skidmarks|dilly_dilly": [
+   3,
+   4,
+   0
+  ],
+  "silver_stars|bird_gang": [
+   2,
+   4,
+   0
+  ],
+  "bird_gang|silver_stars": [
+   4,
+   2,
+   0
+  ],
+  "haven_boyz|mexican_mafia": [
+   4,
+   2,
+   0
+  ],
+  "mexican_mafia|haven_boyz": [
+   2,
+   4,
+   0
+  ],
+  "devil_dogz|sponge_bobs": [
+   4,
+   3,
+   0
+  ],
+  "sponge_bobs|devil_dogz": [
+   3,
+   4,
+   0
+  ],
+  "dirty_south|skidmarks": [
+   2,
+   2,
+   0
+  ],
+  "skidmarks|dirty_south": [
+   2,
+   2,
+   0
+  ],
+  "bird_gang|big_kahunas": [
+   4,
+   2,
+   0
+  ],
+  "big_kahunas|bird_gang": [
+   2,
+   4,
+   0
+  ],
+  "dilly_dilly|silver_stars": [
+   3,
+   3,
+   0
+  ],
+  "silver_stars|dilly_dilly": [
+   3,
+   3,
+   0
+  ],
+  "devil_dogz|mexican_mafia": [
+   4,
+   4,
+   0
+  ],
+  "mexican_mafia|devil_dogz": [
+   4,
+   4,
+   0
+  ],
+  "haven_boyz|dirty_south": [
+   5,
+   2,
+   0
+  ],
+  "dirty_south|haven_boyz": [
+   2,
+   5,
+   0
+  ],
+  "dilly_dilly|sponge_bobs": [
+   1,
+   3,
+   0
+  ],
+  "sponge_bobs|dilly_dilly": [
+   3,
+   1,
+   0
+  ],
+  "silver_stars|big_kahunas": [
+   2,
+   7,
+   0
+  ],
+  "big_kahunas|silver_stars": [
+   7,
+   2,
+   0
+  ],
+  "skidmarks|bird_gang": [
+   2,
+   7,
+   0
+  ],
+  "bird_gang|skidmarks": [
+   7,
+   2,
+   0
+  ],
+  "mexican_mafia|sponge_bobs": [
+   4,
+   3,
+   0
+  ],
+  "sponge_bobs|mexican_mafia": [
+   3,
+   4,
+   0
+  ],
+  "devil_dogz|dirty_south": [
+   2,
+   4,
+   0
+  ],
+  "dirty_south|devil_dogz": [
+   4,
+   2,
+   0
+  ],
+  "haven_boyz|bird_gang": [
+   1,
+   3,
+   0
+  ],
+  "bird_gang|haven_boyz": [
+   3,
+   1,
+   0
+  ],
+  "dilly_dilly|big_kahunas": [
+   4,
+   3,
+   1
+  ],
+  "big_kahunas|dilly_dilly": [
+   3,
+   4,
+   1
+  ],
+  "silver_stars|skidmarks": [
+   4,
+   3,
+   0
+  ],
+  "skidmarks|silver_stars": [
+   3,
+   4,
+   0
+  ],
+  "dirty_south|mexican_mafia": [
+   4,
+   2,
+   0
+  ],
+  "mexican_mafia|dirty_south": [
+   2,
+   4,
+   0
+  ],
+  "sponge_bobs|haven_boyz": [
+   5,
+   2,
+   0
+  ],
+  "haven_boyz|sponge_bobs": [
+   2,
+   5,
+   0
+  ],
+  "silver_stars|devil_dogz": [
+   2,
+   2,
+   0
+  ],
+  "devil_dogz|silver_stars": [
+   2,
+   2,
+   0
+  ],
+  "skidmarks|big_kahunas": [
+   6,
+   0,
+   0
+  ],
+  "big_kahunas|skidmarks": [
+   0,
+   6,
+   0
+  ],
+  "bird_gang|dilly_dilly": [
+   6,
+   1,
+   0
+  ],
+  "dilly_dilly|bird_gang": [
+   1,
+   6,
+   0
+  ],
+  "mexican_mafia|skidmarks": [
+   1,
+   2,
+   0
+  ],
+  "skidmarks|mexican_mafia": [
+   2,
+   1,
+   0
+  ],
+  "big_kahunas|dirty_south": [
+   2,
+   2,
+   0
+  ],
+  "dirty_south|big_kahunas": [
+   2,
+   2,
+   0
+  ],
+  "bird_gang|sponge_bobs": [
+   3,
+   1,
+   0
+  ],
+  "sponge_bobs|bird_gang": [
+   1,
+   3,
+   0
+  ],
+  "silver_stars|haven_boyz": [
+   2,
+   3,
+   0
+  ],
+  "haven_boyz|silver_stars": [
+   3,
+   2,
+   0
+  ],
+  "devil_dogz|dilly_dilly": [
+   3,
+   1,
+   0
+  ],
+  "dilly_dilly|devil_dogz": [
+   1,
+   3,
+   0
+  ],
+  "dilly_dilly|mexican_mafia": [
+   5,
+   0,
+   0
+  ],
+  "mexican_mafia|dilly_dilly": [
+   0,
+   5,
+   0
+  ],
+  "dirty_south|bird_gang": [
+   3,
+   2,
+   0
+  ],
+  "bird_gang|dirty_south": [
+   2,
+   3,
+   0
+  ],
+  "silver_stars|sponge_bobs": [
+   2,
+   2,
+   0
+  ],
+  "sponge_bobs|silver_stars": [
+   2,
+   2,
+   0
+  ],
+  "big_kahunas|haven_boyz": [
+   1,
+   2,
+   0
+  ],
+  "haven_boyz|big_kahunas": [
+   2,
+   1,
+   0
+  ],
+  "devil_dogz|skidmarks": [
+   2,
+   2,
+   0
+  ],
+  "skidmarks|devil_dogz": [
+   2,
+   2,
+   0
+  ],
+  "bird_gang|mexican_mafia": [
+   3,
+   1,
+   0
+  ],
+  "mexican_mafia|bird_gang": [
+   1,
+   3,
+   0
+  ],
+  "silver_stars|dirty_south": [
+   1,
+   2,
+   0
+  ],
+  "dirty_south|silver_stars": [
+   2,
+   1,
+   0
+  ],
+  "skidmarks|sponge_bobs": [
+   4,
+   0,
+   0
+  ],
+  "sponge_bobs|skidmarks": [
+   0,
+   4,
+   0
+  ],
+  "dilly_dilly|haven_boyz": [
+   2,
+   2,
+   0
+  ],
+  "haven_boyz|dilly_dilly": [
+   2,
+   2,
+   0
+  ],
+  "devil_dogz|big_kahunas": [
+   4,
+   2,
+   0
+  ],
+  "big_kahunas|devil_dogz": [
+   2,
+   4,
+   0
+  ],
+  "mexican_mafia|silver_stars": [
+   4,
+   2,
+   0
+  ],
+  "silver_stars|mexican_mafia": [
+   2,
+   4,
+   0
+  ],
+  "dirty_south|dilly_dilly": [
+   3,
+   2,
+   0
+  ],
+  "dilly_dilly|dirty_south": [
+   2,
+   3,
+   0
+  ],
+  "big_kahunas|sponge_bobs": [
+   2,
+   1,
+   0
+  ],
+  "sponge_bobs|big_kahunas": [
+   1,
+   2,
+   0
+  ],
+  "skidmarks|haven_boyz": [
+   4,
+   2,
+   0
+  ],
+  "haven_boyz|skidmarks": [
+   2,
+   4,
+   0
+  ],
+  "bird_gang|devil_dogz": [
+   4,
+   0,
+   0
+  ],
+  "devil_dogz|bird_gang": [
+   0,
+   4,
+   0
+  ]
+ },
+ "sleeper_seasons": [
+  {
+   "season": 2023,
+   "champion_key": "bird_gang",
+   "runner_up_key": "devil_dogz",
+   "toilet_key": "mexican_mafia",
+   "championship_game": {
+    "week": 17,
+    "roster_ids": [
+     1,
+     6
+    ],
+    "points": [
+     114.3,
+     100.46
+    ]
+   },
+   "champion_roster_id": 1,
+   "runner_up_roster_id": 6,
+   "standings": [
+    {
+     "key": "devil_dogz",
+     "name": "Jersey Devil Dogz",
+     "w": 11,
+     "l": 3,
+     "t": 0,
+     "division": "Shovel",
+     "pf": 1468.36,
+     "pa": 1330.16
+    },
+    {
+     "key": "bird_gang",
+     "name": "Bird Gang",
+     "w": 10,
+     "l": 4,
+     "t": 0,
+     "division": "Pick",
+     "pf": 1412.5,
+     "pa": 1355.18
+    },
+    {
+     "key": "silver_stars",
+     "name": "Silver Stars",
+     "w": 9,
+     "l": 5,
+     "t": 0,
+     "division": "Pick",
+     "pf": 1491.52,
+     "pa": 1353.6
+    },
+    {
+     "key": "dilly_dilly",
+     "name": "Brendawg21",
+     "w": 8,
+     "l": 6,
+     "t": 0,
+     "division": "Pick",
+     "pf": 1465.74,
+     "pa": 1249.62
+    },
+    {
+     "key": "haven_boyz",
+     "name": "Haven Boyz",
+     "w": 6,
+     "l": 8,
+     "t": 0,
+     "division": "Shovel",
+     "pf": 1384.68,
+     "pa": 1389.52
+    },
+    {
+     "key": "skidmarks",
+     "name": "ShenHgts Skidmarks",
+     "w": 6,
+     "l": 8,
+     "t": 0,
+     "division": "Pick",
+     "pf": 1340.08,
+     "pa": 1362.3
+    },
+    {
+     "key": "mexican_mafia",
+     "name": "Mexican Mafia",
+     "w": 6,
+     "l": 8,
+     "t": 0,
+     "division": "Shovel",
+     "pf": 1332.98,
+     "pa": 1432.52
+    },
+    {
+     "key": "dirty_south",
+     "name": "Dirty South",
+     "w": 5,
+     "l": 9,
+     "t": 0,
+     "division": "Shovel",
+     "pf": 1331.2,
+     "pa": 1382.46
+    },
+    {
+     "key": "big_kahunas",
+     "name": "Kjryan98",
+     "w": 5,
+     "l": 9,
+     "t": 0,
+     "division": "Pick",
+     "pf": 1331.06,
+     "pa": 1432.28
+    },
+    {
+     "key": "sponge_bobs",
+     "name": "Sponge Bobs",
+     "w": 4,
+     "l": 10,
+     "t": 0,
+     "division": "Shovel",
+     "pf": 1183.92,
+     "pa": 1454.4
+    }
+   ]
+  },
+  {
+   "season": 2024,
+   "champion_key": "dirty_south",
+   "runner_up_key": "dilly_dilly",
+   "toilet_key": "big_kahunas",
+   "championship_game": {
+    "week": 17,
+    "roster_ids": [
+     5,
+     10
+    ],
+    "points": [
+     138.04,
+     92.6
+    ]
+   },
+   "champion_roster_id": 5,
+   "runner_up_roster_id": 10,
+   "standings": [
+    {
+     "key": "dirty_south",
+     "name": "Dirty South",
+     "w": 12,
+     "l": 2,
+     "t": 0,
+     "division": "Shovel",
+     "pf": 1568.34,
+     "pa": 1333.8
+    },
+    {
+     "key": "dilly_dilly",
+     "name": "Brendawg21",
+     "w": 8,
+     "l": 6,
+     "t": 0,
+     "division": "Pick",
+     "pf": 1366.52,
+     "pa": 1295.44
+    },
+    {
+     "key": "skidmarks",
+     "name": "ShenHgts Skidmarks",
+     "w": 8,
+     "l": 6,
+     "t": 0,
+     "division": "Pick",
+     "pf": 1355.54,
+     "pa": 1305.4
+    },
+    {
+     "key": "sponge_bobs",
+     "name": "Sponge Bobs",
+     "w": 7,
+     "l": 7,
+     "t": 0,
+     "division": "Shovel",
+     "pf": 1460.46,
+     "pa": 1446.84
+    },
+    {
+     "key": "haven_boyz",
+     "name": "Haven Boyz",
+     "w": 7,
+     "l": 7,
+     "t": 0,
+     "division": "Shovel",
+     "pf": 1410.78,
+     "pa": 1400.94
+    },
+    {
+     "key": "bird_gang",
+     "name": "Bird Gang",
+     "w": 7,
+     "l": 7,
+     "t": 0,
+     "division": "Pick",
+     "pf": 1320.48,
+     "pa": 1351.64
+    },
+    {
+     "key": "big_kahunas",
+     "name": "BIG Kahunas",
+     "w": 6,
+     "l": 8,
+     "t": 0,
+     "division": "Pick",
+     "pf": 1424.52,
+     "pa": 1487.8
+    },
+    {
+     "key": "mexican_mafia",
+     "name": "Mexican Mafia",
+     "w": 6,
+     "l": 8,
+     "t": 0,
+     "division": "Shovel",
+     "pf": 1273.74,
+     "pa": 1320.2
+    },
+    {
+     "key": "silver_stars",
+     "name": "Silver Stars",
+     "w": 5,
+     "l": 9,
+     "t": 0,
+     "division": "Pick",
+     "pf": 1271.46,
+     "pa": 1404.96
+    },
+    {
+     "key": "devil_dogz",
+     "name": "Jersey Devil Dogz",
+     "w": 4,
+     "l": 10,
+     "t": 0,
+     "division": "Shovel",
+     "pf": 1309.82,
+     "pa": 1414.64
+    }
+   ]
+  },
+  {
+   "season": 2025,
+   "champion_key": "bird_gang",
+   "runner_up_key": "skidmarks",
+   "toilet_key": "big_kahunas",
+   "championship_game": {
+    "week": 17,
+    "roster_ids": [
+     1,
+     8
+    ],
+    "points": [
+     108.18,
+     79.96
+    ]
+   },
+   "champion_roster_id": 1,
+   "runner_up_roster_id": 8,
+   "standings": [
+    {
+     "key": "bird_gang",
+     "name": "Bird Gang",
+     "w": 14,
+     "l": 0,
+     "t": 0,
+     "division": "Pick",
+     "pf": 1585.54,
+     "pa": 1268.74
+    },
+    {
+     "key": "skidmarks",
+     "name": "ShenHgts Skidmarks",
+     "w": 10,
+     "l": 4,
+     "t": 0,
+     "division": "Pick",
+     "pf": 1478.42,
+     "pa": 1307.8
+    },
+    {
+     "key": "haven_boyz",
+     "name": "Haven Boyz",
+     "w": 8,
+     "l": 6,
+     "t": 0,
+     "division": "Shovel",
+     "pf": 1461.04,
+     "pa": 1323.84
+    },
+    {
+     "key": "dirty_south",
+     "name": "Dirty South",
+     "w": 8,
+     "l": 6,
+     "t": 0,
+     "division": "Shovel",
+     "pf": 1452.78,
+     "pa": 1441.46
+    },
+    {
+     "key": "sponge_bobs",
+     "name": "Sponge Bobs",
+     "w": 7,
+     "l": 7,
+     "t": 0,
+     "division": "Shovel",
+     "pf": 1276.24,
+     "pa": 1384.94
+    },
+    {
+     "key": "devil_dogz",
+     "name": "Jersey Devil Dogz",
+     "w": 6,
+     "l": 8,
+     "t": 0,
+     "division": "Shovel",
+     "pf": 1323.82,
+     "pa": 1384.26
+    },
+    {
+     "key": "silver_stars",
+     "name": "Silver Stars",
+     "w": 5,
+     "l": 9,
+     "t": 0,
+     "division": "Pick",
+     "pf": 1276.26,
+     "pa": 1403.32
+    },
+    {
+     "key": "dilly_dilly",
+     "name": "Brendawg21",
+     "w": 4,
+     "l": 9,
+     "t": 1,
+     "division": "Pick",
+     "pf": 1299.74,
+     "pa": 1382.32
+    },
+    {
+     "key": "mexican_mafia",
+     "name": "Mexican Mafia",
+     "w": 4,
+     "l": 10,
+     "t": 0,
+     "division": "Shovel",
+     "pf": 1201.9,
+     "pa": 1320.38
+    },
+    {
+     "key": "big_kahunas",
+     "name": "BIG Kahunas",
+     "w": 3,
+     "l": 10,
+     "t": 1,
+     "division": "Pick",
+     "pf": 1219.22,
+     "pa": 1357.9
+    }
+   ]
+  }
+ ],
+ "sources": {
+  "sheet": "Fantasy Football History (Google Sheets), league-maintained, 1999\u20132025",
+  "sleeper": "Sleeper API, 2023\u20132025, verified against official standings"
+ }
+}
