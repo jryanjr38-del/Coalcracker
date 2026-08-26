@@ -230,6 +230,17 @@ async function getJSON(url) {
   return r.json();
 }
 
+/* Data files normally live in data/. A folder-less upload can land them at the
+   repo root instead, so try both before giving up. */
+async function getData(name) {
+  const tried = [];
+  for (const path of [`data/${name}`, name]) {
+    try { return await getJSON(path); }
+    catch (e) { tried.push(e.message); }
+  }
+  throw new Error(tried.join(' ; '));
+}
+
 async function loadLive() {
   const body = $('#liveBody');
   try {
@@ -318,7 +329,7 @@ async function loadLive() {
 
 (async function () {
   try {
-    [H, W] = await Promise.all([getJSON('data/history.json'), getJSON('data/writeups.json')]);
+    [H, W] = await Promise.all([getData('history.json'), getData('writeups.json')]);
   } catch (e) {
     document.body.insertAdjacentHTML('afterbegin',
       `<div class="notice" style="margin:20px">Couldn't load league data files. ${esc(e.message)}</div>`);
