@@ -24,7 +24,7 @@
     "Miano's Men"
    ],
    "manager": "Erik Marnell",
-   "tenure": "2001\u2013",
+   "tenure": "2001–",
    "roster_id": 5,
    "titles": [
     2010,
@@ -89,7 +89,7 @@
    "name": "Jersey Devil Dogz",
    "aliases": [],
    "manager": "Chubby Ryan",
-   "tenure": "2001\u2013",
+   "tenure": "2001–",
    "roster_id": 6,
    "titles": [
     2003,
@@ -155,7 +155,7 @@
     "Spongebob Beerpads"
    ],
    "manager": "Ron Wasilewski",
-   "tenure": "2001\u2013",
+   "tenure": "2001–",
    "roster_id": 3,
    "titles": [
     2002,
@@ -216,7 +216,7 @@
     "Young Guns"
    ],
    "manager": "John Ryan Jr",
-   "tenure": "2008\u2013",
+   "tenure": "2008–",
    "roster_id": 1,
    "titles": [
     2015,
@@ -276,7 +276,7 @@
    "name": "Scooby's Doobies",
    "aliases": [],
    "manager": "Jim Bayliff",
-   "tenure": "2001\u201319",
+   "tenure": "2001–19",
    "roster_id": null,
    "titles": [
     1999,
@@ -305,7 +305,7 @@
     "Purple Helmets"
    ],
    "manager": "Mark Mikita",
-   "tenure": "2001\u2013",
+   "tenure": "2001–",
    "roster_id": 8,
    "titles": [
     2007
@@ -365,7 +365,7 @@
    "name": "Frackville Leathernecks",
    "aliases": [],
    "manager": "John Chowansky",
-   "tenure": "2001\u201308",
+   "tenure": "2001–08",
    "roster_id": null,
    "titles": [
     2001
@@ -388,7 +388,7 @@
    "name": "Team Honus",
    "aliases": [],
    "manager": "Michael Honus",
-   "tenure": "2008\u201313",
+   "tenure": "2008–13",
    "roster_id": null,
    "titles": [
     2009
@@ -409,7 +409,7 @@
    "name": "Cell Mates",
    "aliases": [],
    "manager": "Mike Ryan",
-   "tenure": "2000\u201301",
+   "tenure": "2000–01",
    "roster_id": null,
    "titles": [
     2000
@@ -424,7 +424,7 @@
    "name": "Ryan's Renegades",
    "aliases": [],
    "manager": "Kevin Ryan",
-   "tenure": "2001\u201320",
+   "tenure": "2001–20",
    "roster_id": null,
    "titles": [],
    "toilets": [],
@@ -445,7 +445,7 @@
     "Silver Star"
    ],
    "manager": "Justin Silver",
-   "tenure": "2014\u2013",
+   "tenure": "2014–",
    "roster_id": 2,
    "titles": [],
    "toilets": [],
@@ -500,7 +500,7 @@
     "Ville Boyz"
    ],
    "manager": "Zack Chowansky",
-   "tenure": "2020\u2013",
+   "tenure": "2020–",
    "roster_id": 4,
    "titles": [],
    "toilets": [],
@@ -553,7 +553,7 @@
    "name": "Steagles",
    "aliases": [],
    "manager": "Joe Link",
-   "tenure": "2001\u201307",
+   "tenure": "2001–07",
    "roster_id": null,
    "titles": [],
    "toilets": [
@@ -577,7 +577,7 @@
     "Kjryan98"
    ],
    "manager": "Kyle Ryan",
-   "tenure": "2009\u2013",
+   "tenure": "2009–",
    "roster_id": 7,
    "titles": [],
    "toilets": [
@@ -637,7 +637,7 @@
     "BU Boys"
    ],
    "manager": "Alberto Ruiz",
-   "tenure": "2014\u2013",
+   "tenure": "2014–",
    "roster_id": 9,
    "titles": [],
    "toilets": [
@@ -696,7 +696,7 @@
     "Brendawg21"
    ],
    "manager": "Brendan Ryan",
-   "tenure": "2020\u2013",
+   "tenure": "2020–",
    "roster_id": 10,
    "titles": [],
    "toilets": [],
@@ -751,7 +751,7 @@
     "Linda Blair"
    ],
    "manager": "John Pekala",
-   "tenure": "2001\u201313",
+   "tenure": "2001–13",
    "roster_id": null,
    "titles": [],
    "toilets": [
@@ -1016,7 +1016,7 @@
  ],
  "record_book": {
   "most_points_season": {
-   "label": "Most Points \u2014 Season",
+   "label": "Most Points — Season",
    "unit": "pts",
    "rows": [
     {
@@ -1067,7 +1067,7 @@
    ]
   },
   "least_points_season": {
-   "label": "Fewest Points \u2014 Season",
+   "label": "Fewest Points — Season",
    "unit": "pts",
    "rows": [
     {
@@ -1118,7 +1118,7 @@
    ]
   },
   "most_allowed_season": {
-   "label": "Most Points Allowed \u2014 Season",
+   "label": "Most Points Allowed — Season",
    "unit": "pts",
    "rows": [
     {
@@ -1169,7 +1169,7 @@
    ]
   },
   "least_allowed_season": {
-   "label": "Fewest Points Allowed \u2014 Season",
+   "label": "Fewest Points Allowed — Season",
    "unit": "pts",
    "rows": [
     {
@@ -1220,9 +1220,18 @@
    ]
   },
   "most_points_game": {
-   "label": "Most Points \u2014 Game",
+   "label": "Most Points — Game",
    "unit": "pts",
    "rows": [
+    {
+     "key": "silver_stars",
+     "name": "Silver Stars",
+     "year": 2026,
+     "value": 193.96,
+     "src": "sleeper",
+     "current_name": "Silver Stars",
+     "manager": "Justin Silver"
+    },
     {
      "key": "bird_gang",
      "name": "Bird Gang",
@@ -1258,20 +1267,11 @@
      "src": "sleeper",
      "current_name": "Mexican Mafia",
      "manager": "Alberto Ruiz"
-    },
-    {
-     "key": "mexican_mafia",
-     "name": "Mexican Mafia",
-     "year": 2025,
-     "value": 163.0,
-     "src": "sleeper",
-     "current_name": "Mexican Mafia",
-     "manager": "Alberto Ruiz"
     }
    ]
   },
   "least_points_game": {
-   "label": "Fewest Points \u2014 Game",
+   "label": "Fewest Points — Game",
    "unit": "pts",
    "rows": [
     {
@@ -1322,9 +1322,18 @@
    ]
   },
   "most_allowed_game": {
-   "label": "Most Points Allowed \u2014 Game",
+   "label": "Most Points Allowed — Game",
    "unit": "pts",
    "rows": [
+    {
+     "key": "big_kahunas",
+     "name": "BIG Kahunas",
+     "year": 2026,
+     "value": 193.96,
+     "src": "sleeper",
+     "current_name": "BIG Kahunas",
+     "manager": "Kyle Ryan"
+    },
     {
      "key": "silver_stars",
      "name": "Silver Star",
@@ -1360,20 +1369,11 @@
      "src": "sleeper",
      "current_name": "Silver Stars",
      "manager": "Justin Silver"
-    },
-    {
-     "key": "silver_stars",
-     "name": "Silver Stars",
-     "year": 2025,
-     "value": 163.0,
-     "src": "sleeper",
-     "current_name": "Silver Stars",
-     "manager": "Justin Silver"
     }
    ]
   },
   "least_allowed_game": {
-   "label": "Fewest Points Allowed \u2014 Game",
+   "label": "Fewest Points Allowed — Game",
    "unit": "pts",
    "rows": [
     {
@@ -1424,7 +1424,7 @@
    ]
   },
   "best_win_pct": {
-   "label": "Best Win % \u2014 Season",
+   "label": "Best Win % — Season",
    "unit": "pct",
    "rows": [
     {
@@ -1475,7 +1475,7 @@
    ]
   },
   "worst_win_pct": {
-   "label": "Worst Win % \u2014 Season",
+   "label": "Worst Win % — Season",
    "unit": "pct",
    "rows": [
     {
@@ -1526,7 +1526,7 @@
    ]
   },
   "most_wins": {
-   "label": "Most Wins \u2014 Season",
+   "label": "Most Wins — Season",
    "unit": "int",
    "rows": [
     {
@@ -1595,7 +1595,7 @@
    ]
   },
   "least_wins": {
-   "label": "Fewest Wins \u2014 Season",
+   "label": "Fewest Wins — Season",
    "unit": "int",
    "rows": [
     {
@@ -1870,7 +1870,7 @@
    ]
   },
   "most_weekly_highs": {
-   "label": "Most Weekly High Scores \u2014 Season",
+   "label": "Most Weekly High Scores — Season",
    "unit": "num",
    "note": "regular season",
    "rows": [
@@ -2749,7 +2749,7 @@
   }
  ],
  "sources": {
-  "sheet": "Fantasy Football History (Google Sheets), league-maintained, 1999\u20132025",
-  "sleeper": "Sleeper API, 2023\u20132025, verified against official standings"
+  "sheet": "Fantasy Football History (Google Sheets), league-maintained, 1999–2025",
+  "sleeper": "Sleeper API, 2023–2025, verified against official standings"
  }
 }
