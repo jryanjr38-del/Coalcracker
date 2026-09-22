@@ -121,7 +121,32 @@ td.team{font-weight:600;white-space:nowrap}
 .tab[aria-selected="true"]{background:var(--amber);border-color:var(--amber);color:#12130f}
 
 /* ---------- write-ups ---------- */
-.posts{display:flex;flex-direction:column;gap:18px}
+/* index of headlines on the left, one post open in the reader on the right */
+.postwrap{display:grid;grid-template-columns:minmax(230px,310px) 1fr;gap:20px;align-items:start}
+
+.postlist{display:flex;flex-direction:column;gap:8px;min-width:0;
+  max-height:min(70vh,660px);overflow-y:auto;overscroll-behavior:contain;padding-right:3px}
+.postlist::-webkit-scrollbar{width:8px}
+.postlist::-webkit-scrollbar-thumb{background:var(--line-strong);border-radius:99px}
+.postlist::-webkit-scrollbar-track{background:transparent}
+
+.pitem{display:block;width:100%;text-align:left;cursor:pointer;font:inherit;
+  background:var(--surface);border:1px solid var(--line);border-left:3px solid transparent;
+  border-radius:var(--radius);padding:12px 14px;color:var(--ink-2);
+  transition:background .12s ease,border-color .12s ease}
+.pitem:hover{background:var(--surface-2);border-color:var(--line-strong)}
+.pitem:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.pitem .pk{display:block;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;
+  font-weight:700;color:var(--muted)}
+.pitem .pt{display:block;font-family:"Barlow Condensed",sans-serif;font-size:21px;font-weight:700;
+  text-transform:uppercase;line-height:1.14;color:var(--ink);margin:3px 0 3px}
+.pitem .pd{display:block;font-size:11.5px;color:var(--muted)}
+.pitem[aria-selected="true"]{background:var(--surface-2);
+  border-color:var(--line-strong);border-left-color:var(--amber)}
+.pitem[aria-selected="true"] .pk{color:var(--amber)}
+
+.postread{min-width:0}
+.postread:focus{outline:none}
 .post{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:24px 26px}
 .post .meta{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700}
 .post h3{font-size:30px;text-transform:uppercase;margin:8px 0 12px}
@@ -129,6 +154,13 @@ td.team{font-weight:600;white-space:nowrap}
 .post p:last-child{margin-bottom:0}
 .post p b,.post p strong{color:var(--ink)}
 .post .kicker{color:var(--amber)}
+
+@media(max-width:860px){
+  .postwrap{grid-template-columns:1fr;gap:16px}
+  .postlist{max-height:none;padding-right:0}
+  .post{padding:20px 18px}
+  .post h3{font-size:26px}
+}
 
 /* ---------- live section ---------- */
 .livebar{display:flex;align-items:center;gap:10px;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-bottom:18px}
