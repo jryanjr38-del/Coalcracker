@@ -207,17 +207,72 @@ function renderArchive() {
   }
 }
 
+/* Write-ups: a clickable index of headlines beside a reader panel, one post at
+   a time. The list scrolls on its own once the season piles up; on narrow
+   screens the reader drops underneath and tapping a headline scrolls to it. */
 function renderPosts() {
-  $('#postCount').textContent = `${W.posts.length} ${W.posts.length === 1 ? 'entry' : 'entries'}`;
-  $('#posts').innerHTML = W.posts.map(p => {
-    const d = new Date(p.date + 'T12:00:00').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
-    const wk = p.week ? ` &middot; Week ${p.week}` : '';
-    return `<article class="post">
-      <div class="meta"><span class="kicker">${esc(p.kicker || p.season)}</span>${wk} &middot; ${d}</div>
+  const posts = W.posts || [];
+  $('#postCount').textContent = `${posts.length} ${posts.length === 1 ? 'entry' : 'entries'}`;
+
+  const host = $('#posts');
+  host.className = 'postwrap';
+  if (!posts.length) { host.innerHTML = '<div class="notice">No write-ups yet.</div>'; return; }
+
+  host.innerHTML = `<div class="postlist" id="postList" role="tablist" aria-label="Write-ups"></div>
+    <div class="postread" id="postRead" role="tabpanel" tabindex="0"></div>`;
+  const list = $('#postList'), read = $('#postRead');
+
+  const dt = (p, month) => new Date(p.date + 'T12:00:00')
+    .toLocaleDateString('en-US', { month, day: 'numeric', year: 'numeric' });
+  // don't print "Week 2 · Week 2" when the kicker already names the week
+  const label = p => esc(p.kicker || p.season) +
+    (p.week && !/week/i.test(p.kicker || '') ? ` &middot; Week ${p.week}` : '');
+
+  list.innerHTML = posts.map((p, i) => `
+    <button class="pitem" type="button" role="tab" id="ptab${i}"
+      aria-selected="${i === 0 ? 'true' : 'false'}" aria-controls="postRead"
+      tabindex="${i === 0 ? '0' : '-1'}">
+      <span class="pk">${label(p)}</span>
+      <span class="pt">${esc(p.title)}</span>
+      <span class="pd">${dt(p, 'short')}</span>
+    </button>`).join('');
+
+  const items = [...list.children];
+  items.forEach((b, i) => { b.onclick = () => show(i, true); });
+
+  list.onkeydown = e => {
+    const step = (e.key === 'ArrowDown' || e.key === 'ArrowRight') ? 1
+               : (e.key === 'ArrowUp'   || e.key === 'ArrowLeft')  ? -1
+               : (e.key === 'Home') ? 'first' : (e.key === 'End') ? 'last' : 0;
+    if (!step) return;
+    e.preventDefault();
+    const cur = items.findIndex(b => b.getAttribute('aria-selected') === 'true');
+    const next = step === 'first' ? 0 : step === 'last' ? items.length - 1
+               : (cur + step + items.length) % items.length;
+    show(next, false);
+    items[next].focus();
+  };
+
+  show(0, false);
+
+  function show(i, fromClick) {
+    items.forEach((b, j) => {
+      const on = j === i;
+      b.setAttribute('aria-selected', on ? 'true' : 'false');
+      b.tabIndex = on ? 0 : -1;
+    });
+    const p = posts[i];
+    read.innerHTML = `<article class="post">
+      <div class="meta"><span class="kicker">${label(p)}</span> &middot; ${dt(p, 'long')}${
+        p.author ? ` &middot; ${esc(p.author)}` : ''}</div>
       <h3>${esc(p.title)}</h3>
-      ${p.body.map(x => `<p>${bold(x)}</p>`).join('')}
+      ${(p.body || []).map(x => `<p>${bold(x)}</p>`).join('')}
     </article>`;
-  }).join('');
+    // stacked layout: bring the post into view when a headline is tapped
+    if (fromClick && window.matchMedia('(max-width:860px)').matches) {
+      read.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }
 }
 
 /* ============================== live data ============================== */
