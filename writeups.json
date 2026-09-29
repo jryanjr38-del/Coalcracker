@@ -2,6 +2,22 @@
   "_comment": "Add a new entry to the TOP of the posts array. 'body' is an array of paragraphs; **text** renders bold.",
   "posts": [
     {
+      "id": "2026-wk3-recap",
+      "season": "2026",
+      "week": 3,
+      "date": "2026-09-29",
+      "kicker": "Week 3",
+      "title": "Forty-Eight Thirty-Six",
+      "author": "Commissioner",
+      "body": [
+        "**Mexican Mafia 48.36.** That is the lowest score anybody has posted in 2026, by more than eleven points, and it took a starting nine to do it. Drake Maye gave Alberto Ruiz **4.76** at quarterback. De'Von Achane and Tetairoa McMillan both went for **1.70**. The Rams defense chipped in **3.00**. Silver Stars won it **126.56 to 48.36** behind Jahmyr Gibbs' **34.40** and never had to think about it. The Mafia own two of the five highest-scoring games in league history, both from 2025, and now this.",
+        "Dirty South got off the mat, **137.68 over Sponge Bobs, 105.18**. Joe Burrow went **26.58**, James Cook **20.40**, Jaylen Warren **17.60**, Harold Fannin **17.10**, and the Minnesota defense added **17.00** — five starters in double figures and no holes. Ron Wasilewski got **35.28** out of Brock Purdy and lost by **32.50** anyway, which is impressive work. Sam Darnold put up **31.66** on his bench. That would have left him **0.84** short, so it does not even qualify as a decision. Wasilewski entered this season **173-172-6**, a lifetime winning record by exactly one game. He is now **173-175-6**.",
+        "The best game of the week was the one nobody will talk about. **BIG Kahunas 110.72, Brendawg21 106.50** — a margin of **4.22**. Bijan Robinson went for **33.30** and Spencer Shrader kicked **17.00**, which is a sentence that should embarrass somebody. Brendan Ryan got **25.36** from Jaxon Smith-Njigba and **22.44** from Lamar Jackson and still lost, with Matthew Stafford's **22.90** sitting on the bench. He is **0-3** with **308.36** points scored and **362.92** allowed, the most in the league. Three teams with wins have scored less than he has. He also holds the longest losing streak on record, nine, set in 2021 under a different name.",
+        "Bird Gang beat the Skidmarks **129.26 to 101.54**, which is now what happens. Jared Goff **21.36**, Kenneth Walker **19.30**, Brock Bowers **17.60**, the Jacksonville defense **16.00**, Ja'Marr Chase **15.80** — nothing spectacular and nothing below six points. Mark Mikita got **20.90** from Derrick Henry and **17.94** from Patrick Mahomes and then watched Saquon Barkley post **8.00** and Dalton Kincaid **2.80**. Bird Gang were **7-2** against the Skidmarks lifetime coming in. They are **8-2** now. In the week's other game the Jersey Devil Dogz outlasted Haven Boyz **78.02 to 68.04**, the only matchup all week that did not reach **150** combined.",
+        "**Silver Stars and Jersey Devil Dogz are 3-0** and have almost nothing in common. Justin Silver leads the league with **431.24** points, **71.56** clear of anyone else, and has no championships in twelve seasons. Chubby Ryan has **271.36** points, eighth in a ten-team league, six championships, and none since 2016. Behind them Bird Gang, the Skidmarks and the Kahunas are all **2-1**; Dirty South, Haven Boyz and the Mafia are **1-2**; Brendawg21 and Sponge Bobs are **0-3**. Six of ten make the playoffs, eleven games remain, and nobody has a magic number under **10**. Nothing is decided. Sponge Bobs and Brendawg21 are simply further from deciding it than everyone else."
+      ]
+    },
+    {
       "id": "2026-wk2-recap",
       "season": "2026",
       "week": 2,
